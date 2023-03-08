@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextRecognition">
+
+    <LinearLayout
+        android:id="@+id/li1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/li3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/textPorcao"
+                android:layout_width="175dp"
+                android:layout_height="31dp"
+                android:paddingLeft="15dp"
+                android:text="Porção"
+                android:textSize="17sp"
+                android:layout_marginTop="0dp"/>
+            <TextView
+                android:id="@+id/textVPorcao"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="18dp"
+                android:text=""
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/textPPorcao"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:text="g"
+                android:textSize="17sp"
+                android:paddingLeft="15dp"
+                android:layout_marginTop="7dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/li4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textCalorias"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="15dp"
+                android:text="Calorias"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/textVCalorias"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="18dp"
+                android:text=""
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/textPCalorias"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:text="kcal"
+                android:textSize="17sp"
+                android:paddingLeft="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/li5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textCarboidrato"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="15dp"
+                android:text="Carboidratos"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/textValorCarboidrato"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="18dp"
+                android:text=""
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/textPCarboidrato"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:text="g"
+                android:textSize="17sp"
+                android:paddingLeft="15dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/li6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textProteina"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="15dp"
+                android:text="Proteínas"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/textValorProteinas"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="18dp"
+                android:text=""
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/textPProteinas"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:text="g"
+                android:textSize="17sp"
+                android:paddingLeft="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/li7"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textGTotais"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="15dp"
+                android:text="Gorduras Totais"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/textValorGTotais"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="18dp"
+                android:text=""
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/textPGTotais"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:text="g"
+                android:textSize="17sp"
+                android:paddingLeft="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/li8"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textGSaturada"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="15dp"
+                android:text="Gorduras Saturadas"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/textValorGSaturadas"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="18dp"
+                android:text=""
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/textPGSaturadas"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:text="g"
+                android:textSize="17sp"
+                android:paddingLeft="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/li9"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textGTrans"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="15dp"
+                android:text="Gorduras Trans"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/textValorGTrans"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="18dp"
+                android:text=""
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/textPGTrans"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:text="g"
+                android:textSize="17sp"
+                android:paddingLeft="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/li10"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textFibra"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="15dp"
+                android:text="Fibra Alimentar"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/textValorFibra"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="18dp"
+                android:text=""
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/textPFibra"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:text="g"
+                android:textSize="17sp"
+                android:paddingLeft="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/li11"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textSodio"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="15dp"
+                android:text="Sódio"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/textValorSodio"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="18dp"
+                android:text=""
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/textPSodio"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:text="mg"
+                android:textSize="17sp"
+                android:paddingLeft="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/li12"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textAcucares"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="15dp"
+                android:text="Açúcares"
+                android:textSize="17sp" />
+            <TextView
+                android:id="@+id/textValorAcucares"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:paddingLeft="18dp"
+                android:text=""
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/textPAcucares"
+                android:layout_width="175dp"
+                android:layout_height="48dp"
+                android:text="g"
+                android:textSize="17sp"
+                android:paddingLeft="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/li2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textNovaPorcao"
+                android:layout_width="125dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="15dp"
+                android:text="Nova Porção"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edittext2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="start"
+                android:hint="0"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/buttonCalculate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="CALCULAR" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="350dp"
+            android:gravity="start"
+            android:hint="EditText"
+            android:textSize="17sp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
